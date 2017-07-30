@@ -23,7 +23,7 @@ ReactDOM.render(
         <Router history={browserHistory}>
             <Route path="/" component={Layout}>
                 <IndexRoute component={HomePage} />
-                <Route path="blog" component={BlogPage} data={posts}>
+                <Route path="blog" component={BlogPage}>
                     <Route path=":postId" component={PostPage}/>
                 </Route>
                 <Route path="users" component={UsersPage}>
