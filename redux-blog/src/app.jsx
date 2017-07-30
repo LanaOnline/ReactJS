@@ -14,7 +14,6 @@ import PostPage from './app/containers/PostPage';
 import CommentsPage from './app/containers/CommentsPage';
 import HomePage from './app/containers/HomePage';
 import BlogPage from './app/containers/BlogPage';
-import posts from './app/config/posts';//array of articles
 
 
 const app = document.getElementById('app');
